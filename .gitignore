@@ -1,0 +1,7 @@
+# Release files go to GitHub Releases, never into the repository. Game data never goes anywhere here.
+*.exe
+*.iso
+*.bin
+*.elf
+*.ps2
+*.zip
