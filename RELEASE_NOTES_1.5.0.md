@@ -12,7 +12,7 @@ The first public release of Resident Evil Outbreak Recompiled: an unofficial PC 
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 53,826,930 bytes | `8c58c2a276ea2cce985aeb26c257e53fef48cf9ecc68d76aa5d62ccc6824edda` |
+| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,355,058 bytes | `7af527a2c445d1da24523008a57c2444b81077f9906325b9efcc3ee02b6ab60a` |
 
 The setup is not code-signed yet, so Windows SmartScreen may warn about an unrecognized app.
 
@@ -20,7 +20,7 @@ The setup is not code-signed yet, so Windows SmartScreen may warn about an unrec
 
 - Windows 10 or 11 (64-bit) and a graphics card with Direct3D 11. Vulkan is optional and comes with your graphics
   driver.
-- About 450 MB of free disk space.
+- About 650 MB of free disk space (the program, its three background videos and the prepared game).
 - **Your own legal copy of the game**: Resident Evil Outbreak (USA) for the PlayStation 2, SLUS-20765, disc version
   2.00, as a disc image (`.iso`) or as files extracted from your disc. Other releases are recognized but not supported
   yet. Outbreak File #2 is not supported.
@@ -67,6 +67,7 @@ The setup is not code-signed yet, so Windows SmartScreen may warn about an unrec
 - **Controls:**
   - Controllers and keyboard and mouse, fully remappable.
   - PlayStation, Xbox or keyboard button symbols.
+- Three built-in background videos for the menus (REOUTB, the default, REOUTB 1 and REOUTB 2), chosen in Settings > General > Background Video; they play behind the main menu, the game data screen and the Preparing screens, and you can add videos of your own.
   - Compensate Game Deadzone, Mouse Acceleration and Hold To Toggle.
 - **Saves:** a virtual memory card in the same raw `.ps2` layout as PCSX2, with backups, Save Profiles and Portable
   Saves.

@@ -48,7 +48,7 @@ pictures.</sub></p>
 SLUS-20765, disc version 2.00. Other releases of File #1 (USA 1.01, Europe, Japan) are recognized but not supported
 yet. Outbreak File #2 is not supported.
 
-**Requirements:** Windows 10 or 11 (64-bit), a graphics card with Direct3D 11 and about 450 MB of free disk space.
+**Requirements:** Windows 10 or 11 (64-bit), a graphics card with Direct3D 11 and about 650 MB of free disk space.
 Vulkan is optional and comes with your graphics driver. No Visual C++ redistributable is needed, and no compiler of
 your own: the one that prepares the game comes with the program. On a PC with Smart App Control or an App Control
 policy, Windows may block the game file built on your PC; the program then explains what happened.
@@ -68,7 +68,7 @@ the note above).
   the SPU2 sound chip, movie playback and the memory card.
 - The original timing at the game's own 30 frames per second.
 - An optional **60 fps mode** (*Settings > Graphics > Framerate*: Original / 60 / Auto), marked experimental.
-- **Skip Intro Movies**, and a main menu that can play a background video of your own.
+- **Skip Intro Movies**, and **three built-in background videos** for the menus (REOUTB, REOUTB 1, REOUTB 2) to choose from in Settings, plus videos of your own.
 
 **Graphics**
 - A Direct3D 11 hardware renderer (the default), a Vulkan renderer that draws the same pictures, and a software
