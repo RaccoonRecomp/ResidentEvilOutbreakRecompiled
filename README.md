@@ -13,17 +13,19 @@ game is included in the download.
 </p>
 <p align="center">
   <img src="docs/screenshots/settings-graphics.png" width="49%" alt="The graphics settings">
-  <img src="docs/screenshots/start-game-not-prepared-yet.png" width="49%" alt="Start Game in version 1.5.0">
+  <img src="docs/screenshots/preparing-your-game.png" width="49%" alt="Preparing the game from your own disc on your PC">
 </p>
 <p align="center"><sub>The program's own menus, captured from the program itself with sample data. No game
 pictures.</sub></p>
 
 > [!IMPORTANT]
-> **Version 1.5.0 cannot start the game yet.** The installer sets up the program, its settings, the mod framework and
-> the documentation. On first start you choose your own disc image (or files extracted from your disc). The program
-> checks your choice and remembers it. Before the game can start, its code has to be prepared from your disc on your
-> PC: converted and compiled there, once. **That automatic preparation comes in an update.** Until then, the game data
-> screen and *Start Game* tell you so. You can already set up your game data, settings, controls and mods.
+> **The game is prepared on your PC, once.** Nothing of the game is in the download. On first start you choose your
+> own disc image (or files extracted from your disc, or you put either one into the ROM folder). The program checks
+> your choice, remembers it and then prepares the game's code from it on your PC: converted and compiled there, with
+> the free compiler that comes with the program (LLVM, Apache License 2.0 with LLVM Exceptions; its licence files are
+> installed with it). This takes about 3 to 6 minutes on a modern PC: about 3.5 minutes measured, up to about 6 when
+> the PC has little free memory. Then *Start Game* starts the game, and later starts load the prepared game right
+> away. Nothing is downloaded for this, and nothing from your disc leaves your PC.
 
 ## Download and install
 
@@ -39,21 +41,26 @@ pictures.</sub></p>
 
    Your game data is only read, never modified or copied. Only its location is saved.
 
+4. The program then prepares the game (*Preparing your game...*, with the current step and the time left). When it
+   says *Game code prepared.*, choose *Continue*, then *Start Game*.
+
 **You need your own legal copy of the game**: the USA release of Resident Evil Outbreak for the PlayStation 2,
 SLUS-20765, disc version 2.00. Other releases of File #1 (USA 1.01, Europe, Japan) are recognized but not supported
 yet. Outbreak File #2 is not supported.
 
-**Requirements:** Windows 10 or 11 (64-bit) and a graphics card with Direct3D 11. Vulkan is optional and comes with
-your graphics driver. No Visual C++ redistributable is needed.
+**Requirements:** Windows 10 or 11 (64-bit), a graphics card with Direct3D 11 and about 450 MB of free disk space.
+Vulkan is optional and comes with your graphics driver. No Visual C++ redistributable is needed, and no compiler of
+your own: the one that prepares the game comes with the program. On a PC with Smart App Control or an App Control
+policy, Windows may block the game file built on your PC; the program then explains what happened.
 
-Your settings, saves, mods and logs are stored in your Windows profile (`%APPDATA%` and
-`%LOCALAPPDATA%\Resident Evil Outbreak Recompiled`). When you uninstall, you are asked whether to remove them; the
-default answer keeps them. Uninstalling never touches your disc image or extracted files.
+Your settings, saves, mods, logs and the game prepared from your disc (`GameCode`) are stored in your Windows profile
+(`%APPDATA%` and `%LOCALAPPDATA%\Resident Evil Outbreak Recompiled`). When you uninstall, you are asked whether to
+remove them; the default answer keeps them. Uninstalling never touches your disc image or extracted files.
 
 ## Features
 
-These are the features of the program as it is now. In-game features take effect once the game can be prepared and
-started (see the note above).
+These are the features of the program as it is now. In-game features take effect in the game prepared on your PC (see
+the note above).
 
 **The game, natively**
 - The game's PlayStation 2 code, recompiled to native x64 code, running on a PC runtime for the console's hardware:
@@ -106,10 +113,12 @@ The Modern Camera was recreated for the PC recompilation by studying how Snippy'
 rebuilding the same camera for the US version. All credit for the original camera design goes to Snippy
 (heysnippy.com).
 
-Like the game itself, the mods take effect only once the game can be prepared and started. Their settings are kept
-until then, and the cheats that change the game's data or your save data take effect then. The cheats that change the
-game's code, and the Modern Camera, also need their code sites compiled into the prepared game: the mod downloads do
-not carry them, and the preparation update has to provide them.
+The mods take effect in the game prepared on your PC. The cheats that change the game's data or your save data need
+nothing more. The cheats that change the game's code, and the Modern Camera, also need their code sites compiled into
+the prepared game: the Modern Camera and Cheats downloads carry them. After you switch on such a mod, *Start Game*
+offers to update the prepared game (*Update Now*); only what changed is compiled again, in about 30 to 60 seconds.
+The Greatest Hits Cheats download carries no code sites: its cheats marked *game data* or *save data* work, but its
+cheats marked *game code* do not act in the game prepared on your PC.
 
 ## Cheats
 
@@ -148,10 +157,7 @@ The work is checked at every step:
 
 ## Coming updates
 
-Next: **the automatic preparation.** After you choose your disc image, the program will prepare the game's code from
-it on your PC, once. This is what lets the installed program start the game.
-
-Planned after that (not promised, in no particular order):
+Planned (not promised, in no particular order):
 - more of the game verified at full speed, scenario by scenario;
 - more mods;
 - the other releases of File #1 (Europe, Japan), once they are verified from real discs.
