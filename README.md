@@ -8,11 +8,11 @@ game's data (models, textures, sounds, movies, scripts) is read from **your own 
 game is included in the download.
 
 <p align="center">
-  <img src="docs/screenshots/main-menu.png" width="49%" alt="The main menu">
+  <img src="docs/screenshots/main-menu.png" width="49%" alt="The main menu with a menu video">
   <img src="docs/screenshots/game-data-rom-folder.png" width="49%" alt="Choosing your game data from the ROM folder">
 </p>
 <p align="center">
-  <img src="docs/screenshots/settings-graphics.png" width="49%" alt="The graphics settings">
+  <img src="docs/screenshots/settings-general.png" width="49%" alt="The settings over the menu video">
   <img src="docs/screenshots/preparing-your-game.png" width="49%" alt="Preparing the game from your own disc on your PC">
 </p>
 <p align="center"><sub>The program's own menus, captured from the program itself with sample data. No game
