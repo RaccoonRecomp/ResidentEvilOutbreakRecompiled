@@ -12,7 +12,7 @@ The first public release of Resident Evil Outbreak Recompiled: an unofficial PC 
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,355,058 bytes | `7af527a2c445d1da24523008a57c2444b81077f9906325b9efcc3ee02b6ab60a` |
+| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,342,530 bytes | `c648d15091ba5e3e6f4e629356f2546037148fa7fccb390698bd515770ccd1bf` |
 
 The setup is not code-signed yet, so Windows SmartScreen may warn about an unrecognized app.
 
@@ -67,7 +67,7 @@ The setup is not code-signed yet, so Windows SmartScreen may warn about an unrec
 - **Controls:**
   - Controllers and keyboard and mouse, fully remappable.
   - PlayStation, Xbox or keyboard button symbols.
-- Three built-in background videos for the menus (REOUTB, the default, REOUTB 1 and REOUTB 2), chosen in Settings > General > Background Video; they play behind the main menu, the game data screen and the Preparing screens, and you can add videos of your own.
+- Three built-in background videos for the menus (REOUTB, the default, REOUTB 1 and REOUTB 2), chosen in Settings > General > Background Video; they play behind the main menu, the game data screen and the Preparing screens.
   - Compensate Game Deadzone, Mouse Acceleration and Hold To Toggle.
 - **Saves:** a virtual memory card in the same raw `.ps2` layout as PCSX2, with backups, Save Profiles and Portable
   Saves.
