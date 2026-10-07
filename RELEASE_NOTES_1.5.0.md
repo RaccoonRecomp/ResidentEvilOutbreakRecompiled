@@ -12,7 +12,7 @@ The first public release of Resident Evil Outbreak Recompiled: an unofficial PC 
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,342,530 bytes | `c648d15091ba5e3e6f4e629356f2546037148fa7fccb390698bd515770ccd1bf` |
+| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,364,010 bytes | `6dcff9d504154240f9f7ffc8fa1678d5accd1b5ebb3f980f1bde6d99ee30959f` |
 
 The setup is not code-signed yet, so Windows SmartScreen may warn about an unrecognized app.
 
@@ -48,9 +48,8 @@ The setup is not code-signed yet, so Windows SmartScreen may warn about an unrec
   disc leaves your PC.
   - It takes about 3 to 6 minutes on a modern PC: about 3.5 minutes measured with 2 compiler processes, up to about 6
     when the PC has little free memory. Later starts load the prepared game right away.
-  - After you switch on a mod that changes the game's code (the Cheats' game-code cheats, the Modern Camera), *Start
-    Game* offers to update the prepared game (*Update Now*): only what changed is compiled again, in about 30 to 60
-    seconds.
+  - The code sites of the Cheats' game-code cheats and the Modern Camera are compiled in during that one
+    preparation, so these mods work as soon as you switch them on.
   - The prepared game was checked against the developer's own build: identical, and not slower. With the Cheats'
     game-code cheats and the Modern Camera on, it matched as well.
   - The prepared game is kept in your profile (`%LOCALAPPDATA%\Resident Evil Outbreak Recompiled\GameCode`).

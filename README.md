@@ -115,8 +115,8 @@ rebuilding the same camera for the US version. All credit for the original camer
 
 The mods take effect in the game prepared on your PC. The cheats that change the game's data or your save data need
 nothing more. The cheats that change the game's code, and the Modern Camera, also need their code sites compiled into
-the prepared game: the Modern Camera and Cheats downloads carry them. After you switch on such a mod, *Start Game*
-offers to update the prepared game (*Update Now*); only what changed is compiled again, in about 30 to 60 seconds.
+the prepared game: the program compiles them in when it prepares the game, so they work as soon as you switch the
+mod on.
 The Greatest Hits Cheats download carries no code sites: its cheats marked *game data* or *save data* work, but its
 cheats marked *game code* do not act in the game prepared on your PC.
 
