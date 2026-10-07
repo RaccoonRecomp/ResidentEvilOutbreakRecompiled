@@ -12,7 +12,7 @@ The first public release of Resident Evil Outbreak Recompiled: an unofficial PC 
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,364,010 bytes | `6dcff9d504154240f9f7ffc8fa1678d5accd1b5ebb3f980f1bde6d99ee30959f` |
+| `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` | 243,364,217 bytes | `392f9806fb7c08911dde8e52063d04b0831520671e51bc517c5a707333f4ba9f` |
 
 The setup is not code-signed yet, so Windows SmartScreen may warn about an unrecognized app.
 
