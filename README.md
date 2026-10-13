@@ -29,7 +29,7 @@ pictures.</sub></p>
 
 ## Download and install
 
-1. Download `ResidentEvilOutbreakRecompiled-1.5.0-Setup.exe` from [Releases](../../releases).
+1. Download `ResidentEvilOutbreakRecompiled-1.5.1-Setup.exe` from [Releases](../../releases).
 2. Run it. By default it installs for your Windows user only, with no administrator rights needed, into
    `%LOCALAPPDATA%\Programs\Resident Evil Outbreak Recompiled`. *Install for all users* is available too. The setup is
    not code-signed yet, so Windows SmartScreen may warn about an unrecognized app.
@@ -48,7 +48,7 @@ pictures.</sub></p>
 SLUS-20765, disc version 2.00. Other releases of File #1 (USA 1.01, Europe, Japan) are recognized but not supported
 yet. Outbreak File #2 is not supported.
 
-**Requirements:** Windows 10 or 11 (64-bit), a graphics card with Direct3D 11 and about 650 MB of free disk space.
+**Requirements:** Windows 10 or 11 (64-bit), a graphics card with Direct3D 11 and about 780 MB of free disk space.
 Vulkan is optional and comes with your graphics driver. No Visual C++ redistributable is needed, and no compiler of
 your own: the one that prepares the game comes with the program. On a PC with Smart App Control or an App Control
 policy, Windows may block the game file built on your PC; the program then explains what happened.
@@ -84,6 +84,10 @@ the note above).
 
 **Controls**
 - Controllers (XInput, DualShock 4, DualSense) and keyboard and mouse, fully remappable.
+- Keyboard and mouse in game: the right mouse button readies the weapon and the left mouse button fires; Enter
+  confirms the game's own menus.
+- On the Xbox Series X|S controller, **Share** opens the program's menu (over Bluetooth), and **View** opens the camera
+  window while a camera mod is on.
 - PlayStation, Xbox or keyboard button symbols in the game's own prompts.
 - Compensate Game Deadzone, Mouse Acceleration and **Hold To Toggle** for held buttons.
 
@@ -101,11 +105,12 @@ The program has a **mod framework**:
 - Mods can carry code that runs in a sandbox and changes the game only through the program's feature system.
 - The modding guide is installed with the program (`docs\MODDING.md`).
 
-Three mods are published as their own downloads:
+Four mods are published as their own downloads:
 
 | Mod | What it does | Download |
 |---|---|---|
-| **Modern Camera** | An over-the-shoulder camera with right-stick and mouse look, aiming, free aim and a crosshair, with its own camera window (F8) for tuning. | [REO-ModernCam](https://github.com/RaccoonRecomp/REO-ModernCam) |
+| **Modern Camera** | An over-the-shoulder camera with right-stick and mouse look, aiming, free aim, Lock On Enemy and a crosshair, with its own camera window (F8, or the controller's View button) for tuning. | [REO-ModernCam](https://github.com/RaccoonRecomp/REO-ModernCam) |
+| **REO First Person** | A first-person camera: the view from your character's eyes, lined up with the gun's sights while you aim, with right-stick look. Its camera window shows its settings, locked. | [REO-FirstPerson](https://github.com/RaccoonRecomp/REO-FirstPerson) |
 | **Cheats** | The regular (original release) cheat set, each cheat its own option. | [REO-Cheats](https://github.com/RaccoonRecomp/REO-Cheats) |
 | **Greatest Hits Cheats** | The Greatest Hits cheat set, each cheat its own switch. | [REO-GreatestHits-Cheats](https://github.com/RaccoonRecomp/REO-GreatestHits-Cheats) |
 
@@ -114,9 +119,9 @@ rebuilding the same camera for the US version. All credit for the original camer
 (heysnippy.com).
 
 The mods take effect in the game prepared on your PC. The cheats that change the game's data or your save data need
-nothing more. The cheats that change the game's code, and the Modern Camera, also need their code sites compiled into
-the prepared game: the program compiles them in when it prepares the game, so they work as soon as you switch the
-mod on.
+nothing more. The cheats that change the game's code, and the two camera mods, also need their code sites compiled
+into the prepared game: the program compiles them in when it prepares the game, so they work as soon as you switch the
+mod on. Use one camera mod at a time.
 The Greatest Hits Cheats download carries no code sites: its cheats marked *game data* or *save data* work, but its
 cheats marked *game code* do not act in the game prepared on your PC.
 
